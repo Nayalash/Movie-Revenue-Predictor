@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Load CSV File (Data)
-data = pandas.read_csv('cost-revenue-clean.csv')
+data = pandas.read_csv('../cost-revenue-clean.csv')
 
 # Config Graph
 X = DataFrame(data, columns=['production_budget_usd'])
